@@ -1,0 +1,25 @@
+{
+  "name": "p
+  rojects",
+  "version": "1.0.0",
+  "description": "html file tag aggregator for SEO team consumption",
+  "main": "start.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "html",
+    "aggregator",
+    "seo"
+  ],
+  "author": "John Leverett",
+  "license": "ISC",
+  "dependencies": {
+    "cli-table": "^0.3.1",
+    "console.table": "^0.10.0",
+    "eslint": "^5.7.0",
+    "inquirer": "^6.2.0",
+    "moment": "^2.22.2",
+    "mysql": "^2.16.0"
+  }
+}

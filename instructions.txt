@@ -1,0 +1,17 @@
+**Languages and tools used:**
+
+- Node v10.1.0
+- NPM v5.6.0
+- MySQL 5.6.34
+- Visual Studio Code 
+- windows 
+
+**Instructions**
+
+1. Clone the repo and then navigate to the root directory of project
+2. Start a local SQL server instance (I used 'mysql -u "my username" -p' in the Terminal).
+3. Run the "schema.sql" file. I ran "source schema.sql".
+4. Go into the file "start.js" and modify the "connection" constant on line 39 to match your SQL credentials. 
+5. Return to the standard terminal in root directory. I used 'Bash'.
+6. run `npm install` to install all dependencies
+7. run `node start.js` to start up the program
